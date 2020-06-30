@@ -1,0 +1,8 @@
+{{> tests/include.must }}
+{{foo}}
+{{#bar}}
+42
+{{/bar}}
+{{^not_bar}}
+30
+{{/not_bar}}
